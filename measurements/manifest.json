@@ -1,0 +1,1137 @@
+[
+  {
+    "file": "inputs/fit/sine_25Hz_-36dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      25
+    ],
+    "level_dbfs": -36,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "47fb5290c2bb9cb600789f41104cc6c40f6e34442fd65a42655eb4e7088b063c"
+  },
+  {
+    "file": "inputs/fit/sine_25Hz_-18dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      25
+    ],
+    "level_dbfs": -18,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "d88efaf843029534caffb5b400726e8e2f8258486cdf999a745aede2f4ed0504"
+  },
+  {
+    "file": "inputs/fit/sine_25Hz_-6dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      25
+    ],
+    "level_dbfs": -6,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "b32795729890e88bcb273eaff6cb507f7571a1e342bf1f74d9748061b9b0e591"
+  },
+  {
+    "file": "inputs/fit/sine_40Hz_-36dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      40
+    ],
+    "level_dbfs": -36,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "e3a06d1f890bfbd302856975bf2d79a2a66f2554bb8a98bd57e1ae46d7a63804"
+  },
+  {
+    "file": "inputs/fit/sine_40Hz_-18dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      40
+    ],
+    "level_dbfs": -18,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "e2dd43bc8bc0fa99610bb634af37dc9c6a296285af572897d85e0a7670814158"
+  },
+  {
+    "file": "inputs/fit/sine_40Hz_-6dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      40
+    ],
+    "level_dbfs": -6,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "30e7100645bb38e252bd08a5ca6cf328203a5394e784f92cefbd5870d460c94e"
+  },
+  {
+    "file": "inputs/fit/sine_55Hz_-36dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      55
+    ],
+    "level_dbfs": -36,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "404b51d909aeaf5cc445eb16f61ecea63bd94cf497cd49e78cd16fd8056dc6e2"
+  },
+  {
+    "file": "inputs/fit/sine_55Hz_-18dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      55
+    ],
+    "level_dbfs": -18,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "8807010b7d412181e58ec11f3bdf702fedcb8a8d5a46c4784f493fa923209dc8"
+  },
+  {
+    "file": "inputs/fit/sine_55Hz_-6dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      55
+    ],
+    "level_dbfs": -6,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "647e720929fb0ed460ad02e9692aa8809976528caf0024046e621098038a5c1f"
+  },
+  {
+    "file": "inputs/fit/sine_63Hz_-36dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      63
+    ],
+    "level_dbfs": -36,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "fa8ac1b75eb200779e39129d3e74d7f4eb010c78aaf1e0574efc7dce29a4afb0"
+  },
+  {
+    "file": "inputs/fit/sine_63Hz_-18dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      63
+    ],
+    "level_dbfs": -18,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "3615a79f9160579d0452ae0b9f9a4953e90d564ce17bc8e2f143baacdb8c1df6"
+  },
+  {
+    "file": "inputs/fit/sine_63Hz_-6dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      63
+    ],
+    "level_dbfs": -6,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "ea8f3766d22352768044e8e552adce68a76bf2e1412c82b1f294551115bb5408"
+  },
+  {
+    "file": "inputs/fit/sine_66Hz_-36dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      66
+    ],
+    "level_dbfs": -36,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "a6ec2019bd3ca63ca4ef0686563e97414197a36855a91c8c38f991b0f4e37ff6"
+  },
+  {
+    "file": "inputs/fit/sine_66Hz_-18dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      66
+    ],
+    "level_dbfs": -18,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "ca75af33facdb0b04bb779137439e2220ceaec7a91c71b5b1aab6efdf8afa395"
+  },
+  {
+    "file": "inputs/fit/sine_66Hz_-6dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      66
+    ],
+    "level_dbfs": -6,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "4a19df159db75c3076b6c4115aec4bdd508adf0588adef9606db1471efcbd60f"
+  },
+  {
+    "file": "inputs/fit/sine_69Hz_-36dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      69
+    ],
+    "level_dbfs": -36,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "064a64ad988850eb28a94fdd9412bbef89ea2dcd5de4919a1ea3dba6c99effef"
+  },
+  {
+    "file": "inputs/fit/sine_69Hz_-18dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      69
+    ],
+    "level_dbfs": -18,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "db44a8e1b6c91f8756f8ecd8aa60480d3de2d2abfa721d25d565573e9bd03751"
+  },
+  {
+    "file": "inputs/fit/sine_69Hz_-6dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      69
+    ],
+    "level_dbfs": -6,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "7e9a94065323901f325d642e7c2bca87792c26f854070101a2e07de0fb55d081"
+  },
+  {
+    "file": "inputs/fit/sine_80Hz_-36dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      80
+    ],
+    "level_dbfs": -36,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "60982f1028c77f6ed71a2a706f9e5a86d71894f7a0e45f91d4845d7e2dd00b89"
+  },
+  {
+    "file": "inputs/fit/sine_80Hz_-18dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      80
+    ],
+    "level_dbfs": -18,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "05d13ae7924fded4590fa51e946ca7b4b03a198f7e9e36fd9dd45398587579f4"
+  },
+  {
+    "file": "inputs/fit/sine_80Hz_-6dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      80
+    ],
+    "level_dbfs": -6,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "176461d289d2fdbbeeeedad29bb70748360608f40c749c218fa4d6259d39c9ba"
+  },
+  {
+    "file": "inputs/fit/sine_100Hz_-36dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      100
+    ],
+    "level_dbfs": -36,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "bef8adbe3444da759d9e827c70b4743d02cd3f809f80c1f3d66a7b77b02ebc4f"
+  },
+  {
+    "file": "inputs/fit/sine_100Hz_-18dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      100
+    ],
+    "level_dbfs": -18,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "4d651d1c2aecd8316d7673c4e5ea163ef97fe18123c88f52fcf1794ef20e3c7a"
+  },
+  {
+    "file": "inputs/fit/sine_100Hz_-6dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      100
+    ],
+    "level_dbfs": -6,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "14f79603ccf92082ba17b7a2f2eb8bd79150010790f4a0f95c4732e059467679"
+  },
+  {
+    "file": "inputs/fit/sine_132Hz_-36dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      132
+    ],
+    "level_dbfs": -36,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "e6e21bae3fe4ed11dcdb0765ead7b63c321f64dc598196af746228d4f870e472"
+  },
+  {
+    "file": "inputs/fit/sine_132Hz_-18dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      132
+    ],
+    "level_dbfs": -18,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "c8b17147a30bc2d0b29534e07dad1759bfd4e74aa472a55e4303fffe526e006a"
+  },
+  {
+    "file": "inputs/fit/sine_132Hz_-6dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      132
+    ],
+    "level_dbfs": -6,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "8bafb784fdf7f6fb1be5862441d2e4c61b0b3c94415ff155f6008a5aa1f405a0"
+  },
+  {
+    "file": "inputs/fit/sine_200Hz_-36dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      200
+    ],
+    "level_dbfs": -36,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "5e48a58004d9fa1fc350179850a275c82dad7efb31c2e46dd19af9553da89525"
+  },
+  {
+    "file": "inputs/fit/sine_200Hz_-18dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      200
+    ],
+    "level_dbfs": -18,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "306a053ff7d818ecf694e0c04352eab4572f927503032b57c6566be020520501"
+  },
+  {
+    "file": "inputs/fit/sine_200Hz_-6dB.wav",
+    "split": "fit",
+    "kind": "sine",
+    "frequencies": [
+      200
+    ],
+    "level_dbfs": -6,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "71ef25720be8a5dcaa1267fbe2377f3ed66837796e8c9f6dde901c1cdcafb8c5"
+  },
+  {
+    "file": "inputs/fit/two_43_71_-36dB.wav",
+    "split": "fit",
+    "kind": "two",
+    "frequencies": [
+      43,
+      71
+    ],
+    "level_dbfs": -36,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "717d15549c4adfc64c7e2f40e8cf98d98a5225529a78ca435f9034f8480f30d2"
+  },
+  {
+    "file": "inputs/fit/kick_52_-36dB.wav",
+    "split": "fit",
+    "kind": "kick",
+    "frequencies": [
+      52
+    ],
+    "level_dbfs": -36,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "24a6cd8c0d9f548d007c858aea3332bb1a2a68b1c891571e440459a4130ae44e"
+  },
+  {
+    "file": "inputs/fit/two_43_71_-18dB.wav",
+    "split": "fit",
+    "kind": "two",
+    "frequencies": [
+      43,
+      71
+    ],
+    "level_dbfs": -18,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "e31a672e9ddb8f778713d2393ee04d03770989706dc212a027379d876cd0c450"
+  },
+  {
+    "file": "inputs/fit/kick_52_-18dB.wav",
+    "split": "fit",
+    "kind": "kick",
+    "frequencies": [
+      52
+    ],
+    "level_dbfs": -18,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "5d42753873feada5735b022f18ab31d724ad223c64a924a22a6484160a35c1ea"
+  },
+  {
+    "file": "inputs/fit/two_43_71_-6dB.wav",
+    "split": "fit",
+    "kind": "two",
+    "frequencies": [
+      43,
+      71
+    ],
+    "level_dbfs": -6,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "94eaaaf18ac9f7ff9f6ec8c5d538d7a773117c3fb9811986bc5cbad3cb2ebaab"
+  },
+  {
+    "file": "inputs/fit/kick_52_-6dB.wav",
+    "split": "fit",
+    "kind": "kick",
+    "frequencies": [
+      52
+    ],
+    "level_dbfs": -6,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "ee25235c91fd486c88824cb4d3cdb744801504dca6d1aeb8afa62e4bbd3f2fac"
+  },
+  {
+    "file": "inputs/validation/sine_31Hz_-27dB.wav",
+    "split": "validation",
+    "kind": "sine",
+    "frequencies": [
+      31
+    ],
+    "level_dbfs": -27,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "fa3e40d70aee45ebdbda429594452a8577715ce09b47ca1eb78b871e0520dae1"
+  },
+  {
+    "file": "inputs/validation/sine_31Hz_-12dB.wav",
+    "split": "validation",
+    "kind": "sine",
+    "frequencies": [
+      31
+    ],
+    "level_dbfs": -12,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "81fe04c1e70ae172b37baa45d288c39c462805acb773ba2bb2b83b5f673847d6"
+  },
+  {
+    "file": "inputs/validation/sine_61Hz_-27dB.wav",
+    "split": "validation",
+    "kind": "sine",
+    "frequencies": [
+      61
+    ],
+    "level_dbfs": -27,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "fc7482a21b5d6a8a27d4aad7bf9d950c30aa8201bee57dca02c472f31995f4e2"
+  },
+  {
+    "file": "inputs/validation/sine_61Hz_-12dB.wav",
+    "split": "validation",
+    "kind": "sine",
+    "frequencies": [
+      61
+    ],
+    "level_dbfs": -12,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "0ba25c8c190abaf3e39a7ba1a9b2958a31f46a9a8896bcc48b83066e4153e6fa"
+  },
+  {
+    "file": "inputs/validation/sine_73Hz_-27dB.wav",
+    "split": "validation",
+    "kind": "sine",
+    "frequencies": [
+      73
+    ],
+    "level_dbfs": -27,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "3d7d7ae6fd6a10281d5120b5b80fe247f71706fbde839ab5b664976e55587878"
+  },
+  {
+    "file": "inputs/validation/sine_73Hz_-12dB.wav",
+    "split": "validation",
+    "kind": "sine",
+    "frequencies": [
+      73
+    ],
+    "level_dbfs": -12,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "8f76f713d12634c3bedee9bf6f4174d33e8aeae1ed6c6638961dda188fa432fc"
+  },
+  {
+    "file": "inputs/validation/sine_117Hz_-27dB.wav",
+    "split": "validation",
+    "kind": "sine",
+    "frequencies": [
+      117
+    ],
+    "level_dbfs": -27,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "298078bddd5269467ab9dcd0caded1ef265d1122cfcaad32d5e43beb41e8d229"
+  },
+  {
+    "file": "inputs/validation/sine_117Hz_-12dB.wav",
+    "split": "validation",
+    "kind": "sine",
+    "frequencies": [
+      117
+    ],
+    "level_dbfs": -12,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "01931d65d0ec5ef86c66bbf6a87874b1df6954cfa43fb2025fcd0eeb088384b5"
+  },
+  {
+    "file": "inputs/validation/two_43_71_-27dB.wav",
+    "split": "validation",
+    "kind": "two",
+    "frequencies": [
+      43,
+      71
+    ],
+    "level_dbfs": -27,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "8b43d027769dfcb561171c5bbf587028483e84cba325292ba0b8e371502b53af"
+  },
+  {
+    "file": "inputs/validation/kick_59_-27dB.wav",
+    "split": "validation",
+    "kind": "kick",
+    "frequencies": [
+      59
+    ],
+    "level_dbfs": -27,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "01e7a5e3b5c6c24fac9acbf808593cb7cf47252a5314262d2d83e5054d80d26d"
+  },
+  {
+    "file": "inputs/validation/two_43_71_-12dB.wav",
+    "split": "validation",
+    "kind": "two",
+    "frequencies": [
+      43,
+      71
+    ],
+    "level_dbfs": -12,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "e2ef47929f829137d5ed949fbdef5d65ed8105605215260f6d9172aa672e5450"
+  },
+  {
+    "file": "inputs/validation/kick_59_-12dB.wav",
+    "split": "validation",
+    "kind": "kick",
+    "frequencies": [
+      59
+    ],
+    "level_dbfs": -12,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "5522de51c668cc9ba719f524096970f10de36c183a1d877e3cdcba92004146e7"
+  },
+  {
+    "file": "inputs/fit/impulses.wav",
+    "split": "fit",
+    "kind": "impulse",
+    "frequencies": [],
+    "level_dbfs": null,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "7c72f1ad37a1b6e6443196835d708d4cf0fafd38fa8e45065b542b1056dc4808"
+  },
+  {
+    "file": "inputs/fit/stereo_L.wav",
+    "split": "fit",
+    "kind": "stereo",
+    "frequencies": [
+      66
+    ],
+    "level_dbfs": null,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "5bc9e0f6e7b456a0bd0a421a19b5ff40ab7d88ef43efef3e38d88371a9d6eeae"
+  },
+  {
+    "file": "inputs/fit/stereo_R.wav",
+    "split": "fit",
+    "kind": "stereo",
+    "frequencies": [
+      66
+    ],
+    "level_dbfs": null,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "b79b5df0ec6a896fe154388af5dfe4503545371ce580d0143e9eb276ee386196"
+  },
+  {
+    "file": "inputs/fit/stereo_LR.wav",
+    "split": "fit",
+    "kind": "stereo",
+    "frequencies": [
+      66
+    ],
+    "level_dbfs": null,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "7d301735e5579b90d0655bee548d3342a47c7d16a0aed4c8f29fb53e5ce9c2ed"
+  },
+  {
+    "file": "inputs/fit/stereo_anti.wav",
+    "split": "fit",
+    "kind": "stereo",
+    "frequencies": [
+      66
+    ],
+    "level_dbfs": null,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "8be01c1dac20f2d9994b28ab552003c59751f15ed316dc9e90d93ce8313a1e45"
+  },
+  {
+    "file": "inputs/fit/silence.wav",
+    "split": "fit",
+    "kind": "silence",
+    "frequencies": [],
+    "level_dbfs": null,
+    "frames": 288000,
+    "rate": 48000,
+    "channels": 2,
+    "active": [
+      48000,
+      240000
+    ],
+    "steady": [
+      96000,
+      192000
+    ],
+    "sha256": "4fab7a3bb61904fbb251a60e4b1224d9392f7e810e07c829e58edf8f32bec35d"
+  }
+]

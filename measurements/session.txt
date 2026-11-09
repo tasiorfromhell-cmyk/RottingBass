@@ -1,0 +1,17 @@
+RBass version / Waves build:
+REAPER version:
+Windows version / CPU:
+RBass component (mono/stereo, VST3/VST2):
+Project rate: 48000 Hz
+Block size:
+Render offline/online:
+Host PDC reported (samples):
+Freq: 66 Hz
+Intensity: +6.9 dB
+Gain: -9.5 dB
+Original Bass: IN in renders/66_IN; OUT in renders/66_OUT
+Input source gain: 0 dB
+Track / master gain: 0 dB
+Normalization/dither/other FX: OFF
+Render bounds: 0.000 - 6.000 s
+Notes / repeat-render behavior:

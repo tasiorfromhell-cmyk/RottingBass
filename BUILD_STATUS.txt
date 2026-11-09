@@ -1,0 +1,31 @@
+RottingBass v0.1.0 — 2026-11-08
+
+COMPLETED:
+- JUCE 8.0.6, C++17, CMake; JUCE archive SHA256 pinned.
+- Linux x86_64 Release: RottingBass_VST3 built successfully (diagnostic build only).
+- Processor smoke test PASS: mono/stereo, gain -9.5 dB, parameter state recall.
+- 5 measurement-tool regression tests PASS.
+- 54 WAV integrity checks PASS: float32, 48 kHz, stereo, 288000 frames, SHA256,
+  1 second leading/trailing silence. 42 fit / 12 validation.
+- Native VST3 manifest confirms Name RottingBass, Version 0.1.0,
+  Vendor Rottingpitstufio.
+
+NOT COMPLETED:
+- Windows x64 binary: NOT INCLUDED. Cross-build attempted with MinGW GCC 14;
+  JUCE 8 explicitly rejects MinGW: "MinGW is not supported. Please use an
+  alternative compiler." No MSVC/Windows SDK is available in this environment.
+  Use Visual Studio 2022 instructions / tools/build_windows.ps1 / Windows CI.
+- REAPER host tests: NOT RUN.
+- RBass references, DSP identification, tuning and validation: AWAITING USER.
+- ABX listening pairs: generator ready; meaningful pairs await reference/model.
+- No sample identity or -60 dB residual claim.
+
+Scaffold processes ONLY Gain with 20 ms smoothing. Freq, Intensity and
+Original Bass are exposed for automation/state recall but do not yet alter DSP.
+The compiled Linux plugin is intentionally not presented as a Windows build.
+
+Repository access failed: Git 403; connected GitHub tool 404.
+No repository files were modified or pushed remotely.
+
+Requested /codex/.../output path does not exist and cannot be created by this
+managed executor (OS Permission denied). Deliverables saved to /workspace/output.

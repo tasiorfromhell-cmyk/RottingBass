@@ -1,0 +1,10 @@
+test_delay (test_measurements.NullTests.test_delay) ... ok
+test_gain_error_detected (test_measurements.NullTests.test_gain_error_detected) ... ok
+test_identity (test_measurements.NullTests.test_identity) ... ok
+test_shape (test_measurements.NullTests.test_shape) ... ok
+test_silence (test_measurements.NullTests.test_silence) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK

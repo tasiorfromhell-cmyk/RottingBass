@@ -1,0 +1,13 @@
+Do not change between releases:
+PRODUCT_NAME RottingBass
+COMPANY_NAME Rottingpitstufio
+PLUGIN_MANUFACTURER_CODE Rtpt (0x52747074)
+PLUGIN_CODE RtBs (0x52744273)
+BUNDLE_ID studio.rottingpitstufio.rottingbass
+JUCE_VST3_CAN_REPLACE_VST2=0
+Parameter IDs: freq, intensity, originalBass, gain; version hint 1
+
+Observed on Linux JUCE 8.0.6 (verify Windows native first build separately):
+Audio Module Class CID ABCDEF019182FAEB5274707452744273
+Component Controller CID ABCDEF011234ABCD5274707452744273
+Keep baseline Windows moduleinfo.json and compare every subsequent release.

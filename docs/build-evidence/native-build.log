@@ -1,0 +1,33 @@
+[0/2] Re-checking globbed directories...
+[1/2] Re-running CMake...
+-- Checking for modules 'webkit2gtk-4.0;gtk+-x11-3.0'
+--   Package 'webkit2gtk-4.0', required by 'virtual:world', not found
+--   Package 'gtk+-x11-3.0', required by 'virtual:world', not found
+-- Configuring juceaide
+-- Building juceaide
+-- Exporting juceaide
+-- Testing juceaide
+-- Finished setting up juceaide
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/work/build-linux
+[0/4] Re-checking globbed directories...
+[1/18] Building CXX object CMakeFiles/RottingBass.dir/Source/Plugin.cpp.o
+[2/18] Linking CXX static library RottingBass_artefacts/Release/libRottingBass_SharedCode.a
+[3/18] Building CXX object CMakeFiles/juce_vst3_helper.dir/workspace/work/JUCE-8.0.6/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o
+[4/18] Linking CXX executable juce_vst3_helper
+[5/18] Building CXX object CMakeFiles/RottingBass_VST3.dir/workspace/work/JUCE-8.0.6/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o
+[6/18] Building CXX object CMakeFiles/RottingBass_VST3.dir/workspace/work/JUCE-8.0.6/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+[7/18] Building CXX object CMakeFiles/RottingBass_VST3.dir/workspace/work/JUCE-8.0.6/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+[8/18] Building CXX object CMakeFiles/RottingBass_VST3.dir/workspace/work/JUCE-8.0.6/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o
+[9/18] Building CXX object CMakeFiles/RottingBass_VST3.dir/workspace/work/JUCE-8.0.6/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+[10/18] Building CXX object CMakeFiles/RottingBass_VST3.dir/workspace/work/JUCE-8.0.6/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+[11/18] Building CXX object CMakeFiles/RottingBass_VST3.dir/workspace/work/JUCE-8.0.6/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o
+[12/18] Building CXX object CMakeFiles/RottingBassSmoke.dir/tests/Smoke.cpp.o
+<command-line>: warning: "JUCE_STANDALONE_APPLICATION" redefined
+<command-line>: note: this is the location of the previous definition
+[13/18] Linking CXX executable RottingBassSmoke_artefacts/Release/RottingBassSmoke
+[14/18] Building CXX object CMakeFiles/RottingBass_VST3.dir/workspace/work/JUCE-8.0.6/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o
+[15/18] Linking CXX shared module RottingBass_artefacts/Release/VST3/RottingBass.vst3/Contents/x86_64-linux/RottingBass.so
+removing moduleinfo.json
+creating /workspace/work/build-linux/RottingBass_artefacts/Release/VST3/RottingBass.vst3/Contents/Resources/moduleinfo.json
