@@ -41,6 +41,7 @@ public:
  void process(juce::AudioBuffer<float>& audio,float f,float intensity,bool original,float outputGain) {
   if(!oversampler || audio.getNumSamples()==0)return;
   jassert(audio.getNumChannels()==channelCount);
+  if(audio.getNumChannels()!=channelCount) { audio.clear();return; }
   freq.setTargetValue(f);amount.setTargetValue(juce::Decibels::decibelsToGain(intensity));
   removeBass.setTargetValue(original?0.f:1.f);gain.setTargetValue(juce::Decibels::decibelsToGain(outputGain));
   // Hosts may exceed prepareToPlay's block hint. Chunk without reallocating.

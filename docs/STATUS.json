@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "release_ready": false,
+  "original_dsp": true,
+  "rbass_references_received": false,
+  "rbass_null": null,
+  "reaper_tested": false,
+  "windows_msvc_tested": false,
+  "native_processor_test": "PASS",
+  "native_class_ids_match_v010": true,
+  "latency_48k_samples": 6,
+  "native_vst3_host_test": "PASS",
+  "windows_status": "CI queued; pending actual result"
+}

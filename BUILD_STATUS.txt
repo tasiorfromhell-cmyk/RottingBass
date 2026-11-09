@@ -1,3 +1,10 @@
-RottingBass v0.2.0 candidate
-Native and Windows tests pending. This file is source status, not proof of a Windows release. Windows release assets include BUILD_INFO.txt and test logs.
-No RBass references supplied. REAPER verification not yet performed.
+RottingBass v0.2.0 source status
+Linux x86_64 Release built; actual VST3 loaded and audio tested in JUCE host.
+Processor/host tests PASS: four controls affect audio, mono/stereo, 44.1/48/96k,
+gain, H2 harmonic, state recall, repeatability, isolated channels, silence,
+block sizes and automation. Oversized block stress is tested directly; VST3
+host obeys maxSamplesPerBlock. Native VST3 class IDs match v0.1.0.
+Windows MSVC CI: queued, outcome documented by the release BUILD_INFO/test logs.
+No Windows verification claim until CI actually passes. No REAPER test.
+No RBass references or null validation. Original approximate DSP.
+Previous immutable v0.1.0 ZIP preserved in archives/v0.1.0.

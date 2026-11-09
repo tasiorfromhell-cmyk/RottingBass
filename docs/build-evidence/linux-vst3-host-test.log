@@ -1,0 +1,32 @@
+Initialize JUCE test host
+Scan VST3 bundle
+Instantiate VST3
+Run hosted audio tests
+render sr=48000 channels=2 block=257 freq=66
+render sr=48000 channels=2 block=257 freq=160
+control difference RMS 0.0785843
+render sr=48000 channels=2 block=257 freq=66
+control difference RMS 0.047925
+render sr=48000 channels=2 block=257 freq=66
+control difference RMS 0.0441947
+render sr=48000 channels=2 block=257 freq=66
+control difference RMS 0.0702604
+render sr=48000 channels=2 block=257 freq=66
+render sr=48000 channels=1 block=257 freq=66
+H2 amplitude 0.0734728
+render sr=48000 channels=2 block=257 freq=83
+render sr=48000 channels=2 block=257 freq=83
+render sr=44100 channels=1 block=127 freq=66
+render sr=44100 channels=2 block=127 freq=66
+render sr=48000 channels=1 block=127 freq=66
+render sr=48000 channels=2 block=127 freq=66
+render sr=96000 channels=1 block=127 freq=66
+render sr=96000 channels=2 block=127 freq=66
+render sr=48000 channels=2 block=127 freq=66
+render sr=48000 channels=2 block=127 freq=66
+render sr=48000 channels=2 block=17 freq=66
+render sr=48000 channels=2 block=512 freq=66
+VST3 host respects maxSamplesPerBlock; oversized buffer stress is tested directly.
+render sr=48000 channels=2 block=31 freq=66
+PASS mono/stereo, 44.1/48/96k, four controls, gain, harmonic, recall, repeatability, channel isolation, silence, block sizes, automation. Latency=6
+PASS VST3 loaded in JUCE test host (not REAPER).
