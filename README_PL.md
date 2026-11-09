@@ -28,3 +28,5 @@ Zachowane z v0.1.0: manufacturer code Rtpt, plugin code RtBs, BUNDLE_ID studio.r
 Nie otrzymano referencji RBass. docs/RENDER_PL.md opisuje pierwszą sesję: 66 Hz, +6.9 dB, -9.5 dB, IN i OUT. `python tools/generate.py` odtwarza wszystkie 54 WAV float32/48k; w repozytorium nie dublujemy WAV z archiwum v0.1.0. Narzędzia features/analyze/difference/abx zachowane. Testy narzędzi: `python -m unittest discover -s tests -v` po instalacji requirements.txt. Raport: docs/VALIDATION_PL.md.
 
 Licencja własnego kodu: MIT (LICENSE). JUCE: AGPLv3 lub odpowiednia licencja JUCE. Żadnych zasobów ani kodu Waves. Użytkownik wybiera właściwą ścieżkę licencyjną dystrybucji JUCE.
+
+Pełny lokalny build MSVC, testy i ZIP: `powershell -ExecutionPolicy Bypass -File tools/build_windows.ps1`. Wynik: releases/v0.2.0/RottingBass-v0.2.0-Windows-x64.zip. Skrypt odmawia nadpisania istniejącego wydania.
