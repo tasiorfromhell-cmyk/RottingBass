@@ -1,0 +1,18 @@
+RottingBass v0.2.0 — Windows x64 / VST3 / Rottingpitstufio
+
+1. Zamknij REAPER.
+2. Rozpakuj ZIP. Skopiuj CALY katalog RottingBass.vst3 do:
+   C:\Program Files\Common Files\VST3\RottingBass.vst3
+   Nie kopiuj samego pliku z Contents\x86_64-win.
+3. Uruchom REAPER x64. Preferences > Plug-ins > VST > Re-scan.
+4. Dodaj VST3: RottingBass (Rottingpitstufio).
+5. Sprawdz na wlasnej kopii REAPER mono/stereo, cztery kontrolki,
+   automatyzacje i zapis/ponowne otwarcie projektu.
+
+Freq wybiera oryginalny dol do analizy, Intensity reguluje poziom generowanych
+harmonicznych, Original Bass OUT usuwa wydzielony dol, Gain reguluje wyjscie.
+Oversampling 4x; wtyczka zglasza opoznienie do kompensacji przez host.
+Brzmienie: wlasne DSP, przyblizenie celu. Brak kalibracji/wynikow null RBass.
+Test zaladowania Windows VST3: patrz windows-host-test.log.
+REAPER: niezweryfikowany w CI; nie deklarujemy testu w REAPER-ze.
+Zachowano identyfikator VST3 i identyfikatory parametrow z v0.1.0.

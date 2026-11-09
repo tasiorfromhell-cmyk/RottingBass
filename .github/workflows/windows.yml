@@ -1,0 +1,64 @@
+name: Windows MSVC x64 release
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-test-package:
+    runs-on: windows-2022
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure MSVC x64 with static runtime
+        run: cmake -S . -B build -G "Visual Studio 17 2022" -A x64 -DRB_BUILD_TESTS=ON
+      - name: Build VST3 and test hosts
+        run: cmake --build build --config Release --parallel 2 --target RottingBass_VST3 RottingBassSmoke RottingBassHostTest
+      - name: Processor audio tests
+        shell: pwsh
+        run: |
+          & .\build\RottingBassSmoke_artefacts\Release\RottingBassSmoke.exe 2>&1 | Tee-Object processor-test.log
+          if ($LASTEXITCODE -ne 0) { throw 'Processor tests failed' }
+      - name: Load packaged VST3 in Windows test host and test every control
+        shell: pwsh
+        run: |
+          $bundle = (Resolve-Path 'build/RottingBass_artefacts/Release/VST3/RottingBass.vst3').Path
+          & .\build\RottingBassHostTest_artefacts\Release\RottingBassHostTest.exe $bundle 2>&1 | Tee-Object windows-host-test.log
+          if ($LASTEXITCODE -ne 0) { throw 'Windows VST3 host tests failed' }
+      - name: Check metadata and build full installable ZIP
+        shell: pwsh
+        run: |
+          $bundle = 'build/RottingBass_artefacts/Release/VST3/RottingBass.vst3'
+          $info = Get-Content "$bundle/Contents/Resources/moduleinfo.json" -Raw | ConvertFrom-Json
+          if ($info.Name -ne 'RottingBass' -or $info.Version -ne '0.2.0' -or $info.'Factory Info'.Vendor -ne 'Rottingpitstufio') { throw 'Wrong metadata' }
+          $component = $info.Classes | Where-Object { $_.Category -eq 'Audio Module Class' }
+          $controller = $info.Classes | Where-Object { $_.Category -eq 'Component Controller Class' }
+          if ($component.CID -ne 'ABCDEF019182FAEB5274707452744273' -or $controller.CID -ne 'ABCDEF011234ABCD5274707452744273') { throw 'VST3 identity changed' }
+          $binary = "$bundle/Contents/x86_64-win/RottingBass.vst3"
+          $pe = [IO.File]::ReadAllBytes($binary)
+          $peOffset = [BitConverter]::ToInt32($pe,60)
+          if ([BitConverter]::ToUInt16($pe,$peOffset+4) -ne 0x8664) { throw 'Not Windows x64 PE' }
+          New-Item -ItemType Directory -Path package | Out-Null
+          Copy-Item $bundle package -Recurse
+          Copy-Item docs/INSTALL_WINDOWS_PL.txt package/INSTALL_PL.txt
+          Copy-Item processor-test.log,windows-host-test.log package
+          @('Version: 0.2.0', "Commit: $env:GITHUB_SHA", 'Compiler: MSVC x64, Visual Studio 2022, static C++ runtime', 'Windows VST3 test host: PASS (see windows-host-test.log)', 'REAPER: NOT TESTED', 'RBass calibration: NOT PERFORMED; original approximate DSP') | Set-Content package/BUILD_INFO.txt
+          Get-ChildItem package -File -Recurse | Get-FileHash -Algorithm SHA256 | Select-Object Hash,Path | ConvertTo-Json | Set-Content package/SHA256.json
+          Compress-Archive -Path package/* -DestinationPath RottingBass-v0.2.0-Windows-x64.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: RottingBass-v0.2.0-Windows-x64
+          path: RottingBass-v0.2.0-Windows-x64.zip
+          if-no-files-found: error
+      - name: Publish verified binary
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: pwsh
+        run: |
+          gh release view v0.2.0 --repo "$env:GITHUB_REPOSITORY" 2>$null
+          if ($LASTEXITCODE -eq 0) { throw 'v0.2.0 already exists. Do not overwrite previous builds.' }
+          gh release create v0.2.0 RottingBass-v0.2.0-Windows-x64.zip --repo "$env:GITHUB_REPOSITORY" --target "$env:GITHUB_SHA" --title 'RottingBass v0.2.0 — Windows x64' --notes-file docs/RELEASE_v0.2.0.md
+          if ($LASTEXITCODE -ne 0) { throw 'Release upload failed' }
