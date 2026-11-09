@@ -52,6 +52,14 @@ jobs:
           name: RottingBass-v0.2.0-Windows-x64
           path: RottingBass-v0.2.0-Windows-x64.zip
           if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: RottingBass-v0.2.0-test-logs-${{ github.run_attempt }}
+          path: |
+            *test.log
+            build/RottingBass_artefacts/Release/VST3/RottingBass.vst3/Contents/Resources/moduleinfo.json
+          if-no-files-found: ignore
       - name: Publish verified binary
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         env:
